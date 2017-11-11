@@ -94,8 +94,8 @@ func init() {
 	android.RegisterArchVariants(android.Arm64,
 		"armv8_a",
 		"cortex_a53",
-		"kryo",
-		"denver64")
+		"denver64",
+		"kryo")
 
 	replaceFirst := func(slice []string, from, to string) {
 		if slice[0] != from {

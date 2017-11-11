@@ -155,7 +155,8 @@ type productVariables struct {
 	BoardUsesQCOMHardware *bool `json:",omitempty"`
 	TargetUsesQCOMBsp *bool `json:",omitempty"`
 
-        TargetUsesNoTrebleCamera *bool `json:",omitempty"`
+	TargetUsesNoTrebleCamera *bool `json:",omitempty"`
+
 }
 
 func boolPtr(v bool) *bool {
